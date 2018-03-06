@@ -1,0 +1,19 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+defaultLocale: "US"
+platform: "mobile"
+elements:
+  loginButton:
+    ios:
+      US: "//XCUIElementTypeButton[@name=\"Log In\"]"
+    android:
+      US: ""
+  tactImage:
+    ios:
+      US: "//XCUIElementTypeImage[@name=\"tact-logo\"]"
+    android:
+      US: ""
+pageTitle:
+  US: "page_object"
+pageValidators: [
+  tactImage
+]

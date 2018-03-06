@@ -1,0 +1,24 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+defaultLocale: "US"
+platform: "mobile"
+elements:
+  veniceEmailAddressTextField:
+    ios:
+      US: ""
+    android:
+      US: "email_or_phone_input"
+  venicePasswordTextField:
+    ios:
+      US: ""
+    android:
+      US: "password_or_pin_input"
+  veniceLoginButton:
+    ios:
+      US: ""
+    android:
+      US: "login_button"
+pageTitle:
+  US: "page_object"
+pageValidators: [
+  veniceEmailAddressTextField
+]

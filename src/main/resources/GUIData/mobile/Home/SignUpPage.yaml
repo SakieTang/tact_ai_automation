@@ -1,0 +1,44 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+defaultLocale: "US"
+platform: "mobile"
+elements:
+  userinfoFirstNameTextField:
+    ios:
+      US: ""
+    android:
+      US: "userinfo_first_name_input"  
+  userinfoLastNameTextField:
+    ios:
+      US: ""
+    android:
+      US: "userinfo_last_name_input"
+  userinfoAgeTextField:
+    ios:
+      US: ""
+    android:
+      US: "userinfo_age_input"
+  userinfoEmailTextField:
+    ios:
+      US: ""
+    android:
+      US: "userinfo_email_input"
+  userinfoSubmitButton:
+    ios:
+      US: ""
+    android:
+      US: "user_info_next_button"
+  dataPickerYearLabel:
+    ios:
+      US: ""
+    android:
+      US: "android:id/date_picker_year"
+  dataPickerOkButton:
+    ios:
+      US: ""
+    android:
+      US: "android:id/button1"    
+pageTitle:
+  US: "page_object"
+pageValidators: [
+  userinfoFirstNameTextField
+]

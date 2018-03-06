@@ -1,0 +1,14 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+defaultLocale: "US"
+platform: "mobile"
+elements:
+  closetutorialButton:
+    ios:
+      US: ""
+    android:
+      US: "tutorial_close"
+pageTitle:
+  US: "page_object"
+pageValidators: [
+  closetutorialButton
+]

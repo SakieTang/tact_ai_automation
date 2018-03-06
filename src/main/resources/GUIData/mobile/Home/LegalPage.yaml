@@ -1,0 +1,24 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+defaultLocale: "US"
+platform: "mobile"
+elements:
+  servieceAgreementLabel:
+    ios:
+      US: ""
+    android:
+      US: "xpath=//android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[2]"
+  acceptButton:
+    ios:
+      US: ""
+    android:
+      US: "serviceagreement_accept"
+  cancelButton:
+    ios:
+      US: ""
+    android:
+      US: "serviceagreement_cancel"
+pageTitle:
+  US: "page_object"
+pageValidators: [
+  servieceAgreementLabel
+]

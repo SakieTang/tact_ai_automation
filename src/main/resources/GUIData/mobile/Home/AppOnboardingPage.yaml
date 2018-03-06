@@ -1,0 +1,19 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+defaultLocale: "US"
+platform: "mobile"
+elements:
+  appOnboardingButton:
+    ios:
+      US: ""
+    android:
+      US: "AppOnboarding.submitbutton"
+  appOnboardingTextField:
+    ios:
+      US: ""
+    android:
+      US: "AppOnboarding.mobilePhone"
+pageTitle:
+  US: "page_object"
+pageValidators: [
+  appOnboardingLabel
+]

@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Selion Test"
+       skipfailedinvocationcounts="false" junit="false" parallel="classes"
+       data-provider-thread-count="1" annotations="JDK">
+
+  <!-- optional (defaults to firefox). Firefox browser will be used for
+    web test -->
+  <!-- <parameter name="browser" value="*firefox"/>  -->
+    <parameter name="mobileNodeType" value="appium" />
+    <parameter name="seleniumhost" value="0.0.0.0" />
+    <parameter name="seleniumport" value="4723" />
+    <parameter name="mobileAppLanguage" value="en"/>
+    <parameter name="mobilePlatform" value="IOS"/>
+    <parameter name="appPath" value="/Users/sakie/workspace/testingEnv/SeLion_Demo-1/Applications/Tact.app"/>
+    <parameter name="mobileDevice" value="IOS:11.2"/>
+    <parameter name="mobileDeviceType" value="IOS Simulator"/>
+    <parameter name="deviceSerial" value="7846EF2B-7588-47FA-BE12-FA8008E21902"/>
+
+  <test name="SeLion_Demo_test" annotations="JDK" enabled="true">
+    <classes>
+      <class name="com.tact.test.IOSDemoTest"/>
+    </classes>
+  </test>
+</suite>
